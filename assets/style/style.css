@@ -1,0 +1,251 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(241, 237, 229);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(245, 209, 252);
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-color: rgb(224, 156, 238);
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-sobre {
+   background: rgb(224, 156, 238);
+}
+
+.content { 
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    padding-top: 0px;
+    max-height: 370px;
+}
+
+.footer {
+    background-color: rgb(212, 0, 255);
+    min-height: 20px;
+    background-image: radial-gradient(rgb(224, 156, 238), rgb(255, 255, 255));
+}
+
+.footer-div1 {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.injecao {
+    height: 40px;
+    background-image: url(/assets/img/injecao.png);
+    background-size: contain;
+    opacity: 0.3;
+}
+.img-header-main, .img-header-horario {
+    border-radius: 15%;
+    height: 205px;
+}
+
+.header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 56px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+.texto-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-logo {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+
+.slogan {
+    margin: 10 0;
+    color: rgb(43, 37, 31);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul a:hover {
+    color:rgb(104, 150, 150);
+}
+
+.menu ul {
+    margin-top: 50px;
+    margin-left: -20px;
+}
+
+.img-header-sobre {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards-sobre {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+}
+
+.sobre-card1 {
+    width: 230px;
+    text-align: center;
+}
+
+.sobre-card2 {
+    width: 230px;
+    text-align: center;
+}
+
+.sobre-card3 {
+    width: 230px;
+    text-align: center;
+}
+
+.img-header-img1 {
+    width: 30%;
+}
+
+.img-header-img2 {
+    width: 36%;
+}
+
+.img-header-img3 {
+    width: 28%;
+}
+
+.content-index {
+    display: flex;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
+}
+
+.content-index img {
+    width: 250px;
+    height: 230px;
+}
+
+table {
+    box-shadow: 14px 6px 54px -6px rgba(0,0,0,0.75);
+}
+
+table tr td {
+    background-color:rgba(183, 86, 196, 0.322);
+}
+
+table tr th {
+    background-color: rgba(183, 86, 196, 0.603);
+}
+
+tfoot tr td {
+    letter-spacing: 2px;
+}
+
+.th-nome {
+    letter-spacing: 2px;
+}
+
+
+
+.content-contato {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+}
+
+.endereco {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40px;
+    margin-left: 75px;
+}
+
+.iframe {
+    width: 400px;
+    margin-left: 30px;
+}
+
+.contato {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.end-msg {
+    display: flex;
+}
+
+label {
+    width: 70px;;
+    display: inline-block;
+}
+
+input {
+    width: 310px;
+}
+
+textarea {
+    width: 382px;
+}
+
+.list-serv {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-serv li {
+    margin-bottom: 20px;
+}
+
+.li-1 {
+    margin-left: 30px;
+}
